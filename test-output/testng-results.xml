@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21290" started-at="2019-10-20T18:48:02Z" finished-at="2019-10-20T18:48:24Z">
+    <groups>
+    </groups>
+    <test name="Verify valid user is able to login into the MercuryTours application by using valid username and password" duration-ms="17051" started-at="2019-10-20T18:48:02Z" finished-at="2019-10-20T18:48:19Z">
+      <class name="mt.mstr.modules.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, java.lang.String, int)[pri:0, instance:mt.mstr.modules.Launch@2b98378d]" name="executeLaunch" duration-ms="9482" started-at="2019-10-20T18:48:02Z" finished-at="2019-10-20T18:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- mt.mstr.modules.Launch -->
+      <class name="mt.mstr.modules.Login">
+        <test-method status="PASS" signature="loginwithValidDetails(java.lang.String, java.lang.String)[pri:1, instance:mt.mstr.modules.Login@475530b9]" name="loginwithValidDetails" duration-ms="7518" started-at="2019-10-20T18:48:12Z" finished-at="2019-10-20T18:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snehalp1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidDetails -->
+      </class> <!-- mt.mstr.modules.Login -->
+    </test> <!-- Verify valid user is able to login into the MercuryTours application by using valid username and password -->
+    <test name="Verify valid user is  not able to login into the MercuryTours application by using Invalid username and password" duration-ms="4067" started-at="2019-10-20T18:48:20Z" finished-at="2019-10-20T18:48:24Z">
+      <class name="mt.mstr.modules.Login">
+        <test-method status="PASS" signature="loginwithInValidDetails(java.lang.String, java.lang.String)[pri:2, instance:mt.mstr.modules.Login@7d9d1a19]" name="loginwithInValidDetails" duration-ms="4048" started-at="2019-10-20T18:48:20Z" finished-at="2019-10-20T18:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snehal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInValidDetails -->
+      </class> <!-- mt.mstr.modules.Login -->
+    </test> <!-- Verify valid user is  not able to login into the MercuryTours application by using Invalid username and password -->
+  </suite> <!-- Suite -->
+</testng-results>
