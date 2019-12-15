@@ -24,7 +24,7 @@ public class LoginPage {
 	}
 	public void enterUsername(String username)
 	{
-		System.out.println("In enterUsername");
+		System.out.println("In enterUsername page");
 		objusername.sendKeys(username);
 	}
 	public void enterPassword(String password)
