@@ -21,6 +21,7 @@ public class FlightFinderPage {
 	}
 	public void verifyFlightFinderPage()
 	{
+		System.out.println("FlightFinder");
 		boolean flag=objFlighterpage.isDisplayed();
 		System.out.println("Flight Finder page icon is displayed :"+flag);
 	}
